@@ -2,3 +2,4 @@
 JLinkLog.txt
 JLinkSettings.ini
 test1.u*
+stm32f10x_conf.h
