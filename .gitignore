@@ -1,4 +1,5 @@
 /Library_Files/
+/build/
 JLinkLog.txt
 JLinkSettings.ini
 test1.u*
