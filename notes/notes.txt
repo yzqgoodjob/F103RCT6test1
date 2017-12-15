@@ -1,0 +1,11 @@
+杨志强
+
+1.C/C++ Define
+	STM32F10X_HD,USE_STDPERIPH_DRIVER
+
+
+1. 2.8寸TFTLCD显示屏 像素：240*320(120*160)
+2. Tout(溢出时间) = ((arr+1)*(psc+1))Tclk(输入时钟频率)
+3. ultrasonic US-100     9600波特率  PA2-U2_TX   PA3-U2_RX
+   TX_0x55 距离     RX 第一字节HData，第二字节LData  距离(HData*256 +LData)mm
+   TX_0x50 温度     如RX收到0x45,则温度为[69(0X45的十进制)-45] = 24度

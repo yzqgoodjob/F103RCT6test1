@@ -1,0 +1,7 @@
+杨志强
+
+sprintf((char*)lcd_id,"LCD%d ID",lcddev.id);//将LCD ID打印到lcd_id数组。
+LCD_ShowString(30,90,200,16,16,"ATOM@ALIENTEK");
+LCD_ShowString(30,110,200,16,16,lcd_id);
+void LCD_ShowxNum(u16 x,u16 y,u32 num,u8 len,u8 size,u8 mode);
+u16 BACK_COLOR=0xFFFF;  //背景色 
