@@ -13,8 +13,6 @@ int main(void)
 		system_start();
 	}
 
-	//LED0 = 0;
-	
 	while(1)
 	{
 		
