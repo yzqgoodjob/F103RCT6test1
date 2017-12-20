@@ -24,7 +24,7 @@ int main(void)
 			USART2->DR = 0x55;
 			while((USART2->SR&0X40)==0);//等待发送结束
 			sonic_old = distence_ultrasonic; 
-			if(distence_ultrasonic<25||distence_ultrasonic>1950)
+			if(distence_ultrasonic<30||distence_ultrasonic>1900)
 			{
 				LED0 = 0;
 			}
