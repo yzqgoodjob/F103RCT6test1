@@ -1,10 +1,5 @@
 /Library_Files/
 /build/
-<<<<<<< HEAD
 JLink*
-=======
-JLinkLog.txt
-JLinkSettings.ini
->>>>>>> e1ed85c75792056df073adb7526e3d182b5a3161
-test1.u*
+*.uv*
 stm32f10x_conf.h
