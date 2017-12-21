@@ -14,6 +14,7 @@
 #include "systemstart.h"
 #include "ultrasonic.h"
 #include "mymath.h"
+#include "lcddisplay.h"
 
 
 #endif

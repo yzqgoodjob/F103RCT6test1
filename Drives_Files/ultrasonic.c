@@ -1,7 +1,7 @@
 #include "ultrasonic.h"
 #include "includes.h"
 
-u16 distence_ultrasonic=0;
+u16 distence_ultrasonic=0;//超声波距离
 
 void ultrasonic_get(u8 rx_data)
 {
