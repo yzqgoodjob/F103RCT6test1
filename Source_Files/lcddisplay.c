@@ -11,6 +11,6 @@ void lcd_display()
 				       run_time[3],run_time[2],run_time[1],run_time[0]);
 			LCD_Fill(124,303,219,319,BLACK);	//清除显示数字区域
 			LCD_ShowString(5,303,240,16,16,dis_time);
-		}
+		} 
 		
 }

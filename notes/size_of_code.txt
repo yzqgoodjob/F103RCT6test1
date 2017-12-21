@@ -4,3 +4,5 @@ Program Size: Code=19000 RO-data=6416 RW-data=60 ZI-data=1652
 Program Size: Code=19044 RO-data=6416 RW-data=60 ZI-data=1652  
 2017/12/13 add ultrasonic.c/h files
 Program Size: Code=19328 RO-data=6416 RW-data=64 ZI-data=1648  
+2017/12/21 add lcddisplay.c/h files
+Program Size: Code=19336 RO-data=6416 RW-data=64 ZI-data=1688  
