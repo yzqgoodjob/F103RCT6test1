@@ -8,7 +8,7 @@ int limit(int x, int min, int max)
 	else return (x);
 }
 
-int limit_change(int x, int x_old, int zoom)
+int limit_delta(int x, int x_old, int zoom)
 {
 	int t;
 	t = x;
@@ -25,4 +25,22 @@ int limit_change(int x, int x_old, int zoom)
 	}
 	
 	return (t);
+}
+
+void fun_sort(u8 *list, u8 num)//排序从小到大
+{
+	u8 i,j;
+	u8 temp;
+	for(i=0; i<num-1; i++)
+	{
+		for(j=i+1; j<num; j++)
+		{
+			if(*(list+i)>*(list+j))
+			{
+				temp = *(list+i);
+				*(list+i) = *(list+j);
+				*(list+j) = temp;
+			}
+		}
+	}
 }

@@ -6,3 +6,5 @@ Program Size: Code=19044 RO-data=6416 RW-data=60 ZI-data=1652
 Program Size: Code=19328 RO-data=6416 RW-data=64 ZI-data=1648  
 2017/12/21 add lcddisplay.c/h files
 Program Size: Code=19336 RO-data=6416 RW-data=64 ZI-data=1688  
+2017/12/22 add funcion fun_sort
+Program Size: Code=19384 RO-data=6416 RW-data=64 ZI-data=1688  
